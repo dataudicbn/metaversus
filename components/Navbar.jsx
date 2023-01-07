@@ -1,7 +1,8 @@
-"use client";
-import { motion } from "framer-motion";
-import styles from "../styles";
-import { navVariants } from "../utils/motion";
+'use client';
+
+import { motion } from 'framer-motion';
+import styles from '../styles';
+import { navVariants } from '../utils/motion';
 const Navbar = () => (
   <motion.nav
     variants={navVariants}
@@ -13,7 +14,7 @@ const Navbar = () => (
     <div className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}>
       <img src="/search.svg" alt="search" className="object-contain w-6 h-6" />
       <h2 className="font-extrabold text-[24px] leading-8 text-white">
-        METAVERSUSs
+        METAVERSUS
       </h2>
       <img src="/menu.svg" alt="menu" className="object-contain w-6 h-6" />
     </div>
